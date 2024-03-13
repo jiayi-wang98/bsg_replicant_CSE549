@@ -1,0 +1,590 @@
+simSetSimulator "-vcssv" -exec \
+           "/local1/jwang710/bsg_bladerunner/bsg_replicant/machines/pod_X1Y1_ruche_X8Y4_hbm_one_pseudo_channel/bigblade-vcs/debug/simv" \
+           -args \
+           "+ntb_random_seed_automatic +c_args=main.riscv\\ harris_color +c_path=/local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/tile-x_8__tile-y_4__image-size-x_64__image-size-y_64__warm-cache_yes/main.so"
+debImport "-dbdir" \
+          "/local1/jwang710/bsg_bladerunner/bsg_replicant/machines/pod_X1Y1_ruche_X8Y4_hbm_one_pseudo_channel/bigblade-vcs/debug/simv.daidir"
+debLoadSimResult \
+           /local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/tile-x_8__tile-y_4__image-size-x_64__image-size-y_64__warm-cache_yes/debug.fsdb
+wvCreateWindow
+verdiWindowResize -win $_Verdi_1 "1724" "1189" "1755" "1313"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.barr_link" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[0\].x\[0\]" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[0\].x\[0\].tile.proc.h.z.vcore" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[0\].x\[0\].tile.proc.h.z.vcore.icache0" \
+           -win $_nTrace1
+srcSetScope \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[0\].x\[0\].tile.proc.h.z.vcore.icache0" \
+           -delim "." -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[0\].x\[0\].tile.proc.h.z.vcore.icache0" \
+           -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk_i" -line 24 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/clk_i"
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "v_i" -line 29 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/v_i"
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvSetPosition -win $_nWave2 {("G2" 1)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "w_i" -line 30 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G3" 0)}
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/w_i"
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvSetPosition -win $_nWave2 {("G2" 2)}
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetPosition -win $_nWave2 {("G2" 1)}
+verdiSetActWin -win $_nWave2
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvSelectSignal -win $_nWave2 {( "G2" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 3 )} 
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "flush_i" -line 31 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G2" 2)}
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/flush_i"
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvSetPosition -win $_nWave2 {("G2" 2)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "read_pc_plus4_i" -line 32 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G2" 3)}
+wvSetPosition -win $_nWave2 {("G2" 2)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/read_pc_plus4_i"
+wvSetPosition -win $_nWave2 {("G2" 2)}
+wvSetPosition -win $_nWave2 {("G2" 3)}
+verdiSetActWin -win $_nWave2
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G2" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 5 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 4 )} 
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "w_pc_i" -line 35 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/w_pc_i\[21:0\]"
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+verdiSetActWin -win $_nWave2
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "w_instr_i" -line 36 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/w_instr_i\[31:0\]"
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("G2" 1)}
+wvSetPosition -win $_nWave2 {("G1" 1)}
+verdiSetActWin -win $_nWave2
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 1)}
+wvSetPosition -win $_nWave2 {("G1" 2)}
+wvZoom -win $_nWave2 108843557.153995 117386510.767826
+wvZoom -win $_nWave2 111247357.883633 112347639.850303
+wvZoom -win $_nWave2 111775384.914365 112006453.153469
+wvZoom -win $_nWave2 111848363.808521 111882483.811013
+wvZoom -win $_nWave2 111862190.946508 111870084.171038
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 113115033.960911 -snap {("G2" 1)}
+wvSetCursor -win $_nWave2 110583788.445701 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 112482222.582108 -snap {("G1" 2)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "pc_i" -line 39 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G3" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/pc_i\[21:0\]"
+wvSetPosition -win $_nWave2 {("G3" 0)}
+wvSetPosition -win $_nWave2 {("G3" 1)}
+wvSetPosition -win $_nWave2 {("G3" 1)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "jalr_prediction_i" -line 40 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_o" -line 41 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G3" 0)}
+wvSetPosition -win $_nWave2 {("G3" 1)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/instr_o\[31:0\]"
+wvSetPosition -win $_nWave2 {("G3" 1)}
+wvSetPosition -win $_nWave2 {("G3" 2)}
+wvZoom -win $_nWave2 105521297.415283 119126742.059532
+verdiSetActWin -win $_nWave2
+wvZoom -win $_nWave2 111313935.454876 113077397.517051
+wvZoom -win $_nWave2 111721889.762867 112215196.213401
+wvZoom -win $_nWave2 111825488.164225 111999501.104118
+wvZoom -win $_nWave2 111855465.783050 111905856.732830
+wvSelectSignal -win $_nWave2 {( "G3" 1 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 2 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 1 )} 
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "icache_miss_o" -line 44 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G4" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[0\]/x\[0\]/tile/proc/h/z/vcore/icache0/icache_miss_o"
+wvSetPosition -win $_nWave2 {("G4" 0)}
+wvSetPosition -win $_nWave2 {("G4" 1)}
+wvSetPosition -win $_nWave2 {("G4" 1)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+verdiSetActWin -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[0\].x\[0\].tile.proc.h.z.vcore.icache0.imem_0" \
+           -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+wvZoom -win $_nWave2 98876777.937859 126404072.915759
+verdiSetActWin -win $_nWave2
+wvZoom -win $_nWave2 110687093.994816 114435683.794924
+wvZoom -win $_nWave2 111637310.769397 112403019.432421
+wvZoom -win $_nWave2 111822613.522042 111978393.463330
+wvZoom -win $_nWave2 111858140.038553 111908362.775982
+wvZoom -win $_nWave2 111883024.807497 111891470.796974
+wvSetCursor -win $_nWave2 111885699.255258 -snap {("G3" 2)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 104905858.029233 119436230.239703
+wvZoom -win $_nWave2 110150619.122397 112975638.165777
+wvZoom -win $_nWave2 111617589.634572 112152929.584549
+wvZoom -win $_nWave2 111841562.870339 111953549.488259
+wvZoom -win $_nWave2 111874727.077904 111901736.155564
+wvZoom -win $_nWave2 111883722.718204 111888707.986845
+wvSetCursor -win $_nWave2 111885456.724684 -snap {("G2" 4)}
+wvSetCursor -win $_nWave2 111885673.475494 -snap {("G3" 1)}
+srcDeselectAll -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[0\].x\[0\].tile" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[3\].tile.proc.h.z.vcore" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[3\].tile.proc.h.z.vcore" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[3\].tile.proc.h.z.vcore.icache0" \
+           -win $_nTrace1
+srcSetScope \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[3\].tile.proc.h.z.vcore.icache0" \
+           -delim "." -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[3\].tile.proc.h.z.vcore.icache0" \
+           -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "v_i" -line 29 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "pc_i" -line 39 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G5" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[3\]/tile/proc/h/z/vcore/icache0/pc_i\[21:0\]"
+wvSetPosition -win $_nWave2 {("G5" 0)}
+wvSetPosition -win $_nWave2 {("G5" 1)}
+wvSetPosition -win $_nWave2 {("G5" 1)}
+wvSelectSignal -win $_nWave2 {( "G2" 3 )} 
+verdiSetActWin -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "jalr_prediction_i" -line 40 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_o" -line 41 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G6" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[3\]/tile/proc/h/z/vcore/icache0/instr_o\[31:0\]"
+wvSetPosition -win $_nWave2 {("G6" 0)}
+wvSetPosition -win $_nWave2 {("G6" 1)}
+wvSetPosition -win $_nWave2 {("G6" 1)}
+wvSetPosition -win $_nWave2 {("G5" 1)}
+verdiSetActWin -win $_nWave2
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G5" 1)}
+wvSetPosition -win $_nWave2 {("G5" 2)}
+wvZoomAll -win $_nWave2
+wvZoom -win $_nWave2 90017418.634627 111533005.513905
+wvZoom -win $_nWave2 99389671.819933 100607535.228194
+wvZoom -win $_nWave2 100071035.925290 100163949.212385
+wvZoom -win $_nWave2 100112804.982893 100128125.385441
+wvSelectSignal -win $_nWave2 {( "G4" 1 )} 
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "icache_miss_o" -line 44 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G2" 5)}
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G5" 2)}
+wvSetPosition -win $_nWave2 {("G6" 0)}
+wvSetPosition -win $_nWave2 {("G5" 2)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[3\]/tile/proc/h/z/vcore/icache0/icache_miss_o"
+wvSetPosition -win $_nWave2 {("G5" 2)}
+wvSetPosition -win $_nWave2 {("G5" 3)}
+wvZoom -win $_nWave2 99103763.556175 101600473.883142
+verdiSetActWin -win $_nWave2
+wvZoom -win $_nWave2 100041822.071142 100244590.178090
+wvZoom -win $_nWave2 100100207.309442 100134972.308910
+wvZoom -win $_nWave2 100119315.225433 100123079.770084
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[3\].tile.proc" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.icache0" \
+           -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.icache0" \
+           -win $_nTrace1
+srcSetScope \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.icache0" \
+           -delim "." -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.icache0" \
+           -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "pc_i" -line 39 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G3" 0)}
+wvSetPosition -win $_nWave2 {("G5" 3)}
+wvSetPosition -win $_nWave2 {("G7" 0)}
+wvSetPosition -win $_nWave2 {("G6" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/icache0/pc_i\[21:0\]"
+wvSetPosition -win $_nWave2 {("G6" 0)}
+wvSetPosition -win $_nWave2 {("G6" 1)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "instr_o" -line 41 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G7" 0)}
+wvSetPosition -win $_nWave2 {("G6" 1)}
+wvSetPosition -win $_nWave2 {("G6" 0)}
+wvSetPosition -win $_nWave2 {("G5" 3)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/icache0/instr_o\[31:0\]"
+wvSetPosition -win $_nWave2 {("G5" 3)}
+wvSetPosition -win $_nWave2 {("G5" 4)}
+wvSetPosition -win $_nWave2 {("G7" 0)}
+wvSetPosition -win $_nWave2 {("G6" 1)}
+verdiSetActWin -win $_nWave2
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G6" 2)}
+wvZoomAll -win $_nWave2
+wvZoom -win $_nWave2 94447098.286243 110109179.911600
+wvZoom -win $_nWave2 99881930.548361 100845553.289872
+wvZoom -win $_nWave2 100168092.510974 100295363.439098
+wvZoom -win $_nWave2 100206618.329175 100222696.854960
+wvZoom -win $_nWave2 100211617.312916 100214743.326543
+wvSetCursor -win $_nWave2 100212773.861010 -snap {("G3" 1)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 100158199.407355 100257000.927460
+wvZoom -win $_nWave2 100199697.666770 100221257.309385
+wvZoom -win $_nWave2 100204543.722546 100215226.269010
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 100071634.090924 100285880.929275
+wvZoom -win $_nWave2 100099755.086910 100235790.405109
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 100095458.647409 100340076.709337
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 92074055.615734 111374802.669204
+wvZoom -win $_nWave2 99167357.239975 101463180.310322
+wvZoom -win $_nWave2 99901869.953207 100335044.117423
+wvZoom -win $_nWave2 100087008.377775 100160566.254717
+wvZoom -win $_nWave2 100111266.184534 100128524.226212
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore" \
+           -win $_nTrace1
+srcSetScope \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore" \
+           -delim "." -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore" \
+           -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall_id" -line 1140 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G4" 0)}
+wvSetPosition -win $_nWave2 {("G6" 1)}
+wvSetPosition -win $_nWave2 {("G6" 2)}
+wvSetPosition -win $_nWave2 {("G7" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_id"
+wvSetPosition -win $_nWave2 {("G7" 0)}
+wvSetPosition -win $_nWave2 {("G7" 1)}
+wvSetPosition -win $_nWave2 {("G7" 1)}
+verdiSetActWin -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 100153873.302190 100266227.542352
+wvZoom -win $_nWave2 100206686.246819 100222539.347154
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall_fence" -line 1123 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G8" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_fence"
+wvSetPosition -win $_nWave2 {("G8" 0)}
+wvSetPosition -win $_nWave2 {("G8" 1)}
+wvSetPosition -win $_nWave2 {("G8" 1)}
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+verdiSetActWin -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall_depend_long_op" -line 1118 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcSelect -win $_nTrace1 -range {1118 1131 4 4 10 8}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall_barrier" -line 1131 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {1117 1132 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {1119 1132 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {1118 1132 1 1 1 1} -backward
+wvSetPosition -win $_nWave2 {("G9" 0)}
+wvSetPosition -win $_nWave2 {("G8" 1)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_depend_long_op" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_depend_local_load" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_depend_imul" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_bypass" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_lr_aq" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_fence" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_amo_aq" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_amo_rl" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_remote_req" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_remote_credit" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_fdiv_busy" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_idiv_busy" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_fcsr" \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/stall_barrier"
+wvSetPosition -win $_nWave2 {("G8" 1)}
+wvSetPosition -win $_nWave2 {("G8" 15)}
+verdiSetActWin -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvSelectSignal -win $_nWave2 {( "G8" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G8" 2 )} 
+wvScrollUp -win $_nWave2 1
+srcDeselectAll -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "stall_depend_long_op" -line 1118 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "int_dependency" -line 1358 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G8" 12)}
+wvSetPosition -win $_nWave2 {("G9" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/int_dependency"
+wvSetPosition -win $_nWave2 {("G9" 0)}
+wvSetPosition -win $_nWave2 {("G9" 1)}
+wvSetPosition -win $_nWave2 {("G9" 1)}
+wvSelectSignal -win $_nWave2 {( "G8" 15 )} 
+verdiSetActWin -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G8" 3 4 5 6 7 8 9 10 11 12 13 14 15 )} 
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G9" 1)}
+srcDeselectAll -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+wvSelectGroup -win $_nWave2 {G9}
+wvSelectSignal -win $_nWave2 {( "G9" 1 )} 
+verdiSetActWin -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G9" 1 )} 
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 100204455.888517 100216810.642674
+wvSetCursor -win $_nWave2 100207314.002259 -snap {("G6" 1)}
+wvSetCursor -win $_nWave2 100208459.274794 -snap {("G6" 2)}
+wvSetCursor -win $_nWave2 100208043.733432 -snap {("G6" 1)}
+wvSetCursor -win $_nWave2 100207334.272569 -snap {("G6" 1)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id_rs3" -line 1344 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.lsu0" \
+           -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.lsu0" \
+           -win $_nTrace1
+srcSetScope \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.lsu0" \
+           -delim "." -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.lsu0" \
+           -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "remote_req_o" -line 42 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+wvSetPosition -win $_nWave2 {("G6" 2)}
+wvSetPosition -win $_nWave2 {("G10" 0)}
+wvSetPosition -win $_nWave2 {("G9" 1)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/lsu0/remote_req_o"
+wvSetPosition -win $_nWave2 {("G9" 1)}
+wvSetPosition -win $_nWave2 {("G9" 2)}
+verdiSetActWin -win $_nWave2
+wvScrollDown -win $_nWave2 1
+wvZoom -win $_nWave2 100212057.254881 100213324.149277
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 100204160.210491 100214104.136322
+wvZoom -win $_nWave2 100208059.469258 100209511.494523
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 100208599.660743 100212373.258806
+wvZoom -win $_nWave2 100211156.668083 100212110.128464
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 100209668.597138 -snap {("G7" 0)}
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.int_sb" \
+           -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.int_sb" \
+           -win $_nTrace1
+srcSetScope \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.int_sb" \
+           -delim "." -win $_nTrace1
+srcHBSelect \
+           "replicant_tb_top.testbench.fi1.DUT.py\[0\].podrow.px\[0\].pod.mc_y\[0\].mc_x\[0\].mc.y\[2\].x\[6\].tile.proc.h.z.vcore.int_sb" \
+           -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id_width_lp" -line 22 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "x0_tied_to_zero_p" -line 15 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "id_width_lp" -line 16 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "scoreboard_r" -line 37 -pos 1 -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G10" 0)}
+wvAddSignal -win $_nWave2 \
+           "/replicant_tb_top/testbench/fi1/DUT/py\[0\]/podrow/px\[0\]/pod/mc_y\[0\]/mc_x\[0\]/mc/y\[2\]/x\[6\]/tile/proc/h/z/vcore/int_sb/scoreboard_r\[31:0\]"
+wvSetPosition -win $_nWave2 {("G10" 0)}
+wvSetPosition -win $_nWave2 {("G10" 1)}
+wvSetPosition -win $_nWave2 {("G10" 1)}
+verdiSetActWin -win $_nWave2
+wvScrollDown -win $_nWave2 1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "op_reads_rf_i" -line 25 -pos 1 -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcDeselectAll -win $_nTrace1
+debExit

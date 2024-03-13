@@ -1,0 +1,99 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_T-2022.06-SP2-2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/tile-x_8__tile-y_4__image-size-x_64__image-size-y_64__warm-cache_yes/debug.fsdb
+syncTime = 100207359
+viewport = 1454 1169 1755 1313 0 0 536 1753
+activeNode = "replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[2].x[6].tile.proc.h.z.vcore.int_sb"
+activeScope = "replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[2].x[6].tile.proc.h.z.vcore.int_sb"
+activeFile = "/local1/jwang710/bsg_bladerunner/bsg_manycore/v/vanilla_bean/scoreboard.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 4
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[2].x[6].tile.proc.h.z.vcore.int_sb"
+Scope2 = "replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[2].x[6].tile.proc.h.z.vcore.lsu0"
+Scope3 = "replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[2].x[6].tile.proc.h.z.vcore"
+Scope4 = "replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[2].x[6].tile.proc.h.z.vcore.icache0"
+Scope5 = "replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[2].x[3].tile.proc.h.z.vcore.icache0"
+Scope6 = "replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[0].x[0].tile.proc.h.z.vcore.icache0"
+Scope7 = "replicant_tb_top"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "/local1/jwang710/bsg_bladerunner/bsg_replicant/machines/pod_X1Y1_ruche_X8Y4_hbm_one_pseudo_channel/bigblade-vcs/debug/simv.daidir" 
+invokeDir = /local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/tile-x_8__tile-y_4__image-size-x_64__image-size-y_64__warm-cache_yes
+[hb.sourceTab.1]
+scope = replicant_tb_top.testbench.fi1.DUT.py[0].podrow.px[0].pod.mc_y[0].mc_x[0].mc.y[2].x[6].tile.proc.h.z.vcore.int_sb
+File = /local1/jwang710/bsg_bladerunner/bsg_manycore/v/vanilla_bean/scoreboard.v
+Line = 5
+[nMemoryManager]
+WaveformFile = /local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/tile-x_8__tile-y_4__image-size-x_64__image-size-y_64__warm-cache_yes/debug.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 25 1755 562 288 222
+primaryWindow = TRUE
+SessionFile = /local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/tile-x_8__tile-y_4__image-size-x_64__image-size-y_64__warm-cache_yes/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE
+tPropMask = TRUE

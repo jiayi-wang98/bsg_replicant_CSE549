@@ -1,0 +1,2803 @@
+/local1/jwang710/bsg_bladerunner/bsg_manycore/software/riscv-tools//riscv-install/bin/riscv32-unknown-elf-dramfs-g++ -frerun-cse-after-loop -fweb -frename-registers -mtune=bsg_vanilla_2020 -std=c++11 -O3 -std=c++14 -Dbsg_tiles_X=8 -Dbsg_tiles_Y=4 -DCACHE_LINE_WORDS=16 -DWARM_CACHE -O2 -march=rv32imaf -g -static -ffast-math -fno-common -ffp-contract=off -fno-threadsafe-statics -Dbsg_global_X=8 -Dbsg_global_Y=4 -Dbsg_group_size=32 -Dbsg_pods_X=1 -Dbsg_pods_Y=1 -DIO_X_INDEX=8 -DIO_Y_INDEX=0 -DPREALLOCATE=0 -DHOST_DEBUG=0 -I/local1/jwang710/bsg_bladerunner/bsg_manycore/software/spmd//common/ -I/local1/jwang710/bsg_bladerunner/bsg_manycore/software/bsg_manycore_lib -c /local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/kernel.cpp -o kernel.rvo |& tee kernel.rvo.log
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+riscv_register_priority: TARGET_RVC == 0
+/local1/jwang710/bsg_bladerunner/bsg_manycore/software/riscv-tools//riscv-install/bin/riscv32-unknown-elf-dramfs-gcc -frerun-cse-after-loop -fweb -frename-registers -mtune=bsg_vanilla_2020 -T bsg_link.ld crt.rvo main.rvo kernel.rvo -flto -Wl,--defsym,_bsg_elf_dram_size=536870912 -Wl,--defsym,_bsg_elf_vcache_size=262144 -Wl,--defsym,_bsg_elf_stack_ptr=0x00000ffc -nostdlib -march=rv32imaf -nostartfiles -ffast-math -lc -lm -lgcc -L. -lbsg_manycore_riscv -Wl,--no-check-sections  -o kernel.riscv
+/local1/jwang710/bsg_bladerunner/bsg_manycore/software/riscv-tools//riscv-install/bin/riscv32-unknown-elf-dramfs-objdump -dS kernel.riscv
+
+kernel.riscv:     file format elf32-littleriscv
+
+
+Disassembly of section .text.dram:
+
+00000000 <_start>:
+  .space(8)
+
+.section .crtbegin,"a"
+  .globl _start
+_start:
+  li  x1, 0
+   0:	00000093          	li	ra,0
+  // li  x2, 0
+  li  x3, 0
+   4:	00000193          	li	gp,0
+  li  x4, 0
+   8:	00000213          	li	tp,0
+  li  x5, 0
+   c:	00000293          	li	t0,0
+  li  x6, 0
+  10:	00000313          	li	t1,0
+  li  x7, 0
+  14:	00000393          	li	t2,0
+  li  x8, 0
+  18:	00000413          	li	s0,0
+  li  x9, 0
+  1c:	00000493          	li	s1,0
+  li  x10,0
+  20:	00000513          	li	a0,0
+  li  x11,0
+  24:	00000593          	li	a1,0
+  li  x12,0
+  28:	00000613          	li	a2,0
+  li  x13,0
+  2c:	00000693          	li	a3,0
+  li  x14,0
+  30:	00000713          	li	a4,0
+  li  x15,0
+  34:	00000793          	li	a5,0
+  li  x16,0
+  38:	00000813          	li	a6,0
+  li  x17,0
+  3c:	00000893          	li	a7,0
+  li  x18,0
+  40:	00000913          	li	s2,0
+  li  x19,0
+  44:	00000993          	li	s3,0
+  li  x20,0
+  48:	00000a13          	li	s4,0
+  li  x21,0
+  4c:	00000a93          	li	s5,0
+  li  x22,0
+  50:	00000b13          	li	s6,0
+  li  x23,0
+  54:	00000b93          	li	s7,0
+  li  x24,0
+  58:	00000c13          	li	s8,0
+  li  x25,0
+  5c:	00000c93          	li	s9,0
+  li  x26,0
+  60:	00000d13          	li	s10,0
+  li  x27,0
+  64:	00000d93          	li	s11,0
+  li  x28,0
+  68:	00000e13          	li	t3,0
+  li  x29,0
+  6c:	00000e93          	li	t4,0
+  li  x30,0
+  70:	00000f13          	li	t5,0
+  li  x31,0
+  74:	00000f93          	li	t6,0
+  # Enable FPU and clear fcsr.
+  #
+  # These are ignored by manycore hardware but might be
+  # required by execution environments supporting 
+  # exceptions (such as Spike).
+  li t0, 0x00003000 # mstatus.FS
+  78:	000032b7          	lui	t0,0x3
+  csrs mstatus, t0 # enable FPU
+  7c:	3002a073          	csrs	mstatus,t0
+  fscsr x0
+  80:	00301073          	fscsr	zero
+  li t0, 0
+  84:	00000293          	li	t0,0
+
+  fcvt.s.w f0, x0 
+  88:	d0007053          	fcvt.s.w	ft0,zero
+  fcvt.s.w f1, x0 
+  8c:	d00070d3          	fcvt.s.w	ft1,zero
+  fcvt.s.w f2, x0 
+  90:	d0007153          	fcvt.s.w	ft2,zero
+  fcvt.s.w f3, x0 
+  94:	d00071d3          	fcvt.s.w	ft3,zero
+  fcvt.s.w f4, x0 
+  98:	d0007253          	fcvt.s.w	ft4,zero
+  fcvt.s.w f5, x0 
+  9c:	d00072d3          	fcvt.s.w	ft5,zero
+  fcvt.s.w f6, x0 
+  a0:	d0007353          	fcvt.s.w	ft6,zero
+  fcvt.s.w f7, x0 
+  a4:	d00073d3          	fcvt.s.w	ft7,zero
+  fcvt.s.w f8, x0 
+  a8:	d0007453          	fcvt.s.w	fs0,zero
+  fcvt.s.w f9, x0 
+  ac:	d00074d3          	fcvt.s.w	fs1,zero
+  fcvt.s.w f10,x0 
+  b0:	d0007553          	fcvt.s.w	fa0,zero
+  fcvt.s.w f11,x0 
+  b4:	d00075d3          	fcvt.s.w	fa1,zero
+  fcvt.s.w f12,x0 
+  b8:	d0007653          	fcvt.s.w	fa2,zero
+  fcvt.s.w f13,x0 
+  bc:	d00076d3          	fcvt.s.w	fa3,zero
+  fcvt.s.w f14,x0 
+  c0:	d0007753          	fcvt.s.w	fa4,zero
+  fcvt.s.w f15,x0 
+  c4:	d00077d3          	fcvt.s.w	fa5,zero
+  fcvt.s.w f16,x0 
+  c8:	d0007853          	fcvt.s.w	fa6,zero
+  fcvt.s.w f17,x0 
+  cc:	d00078d3          	fcvt.s.w	fa7,zero
+  fcvt.s.w f18,x0 
+  d0:	d0007953          	fcvt.s.w	fs2,zero
+  fcvt.s.w f19,x0 
+  d4:	d00079d3          	fcvt.s.w	fs3,zero
+  fcvt.s.w f20,x0 
+  d8:	d0007a53          	fcvt.s.w	fs4,zero
+  fcvt.s.w f21,x0 
+  dc:	d0007ad3          	fcvt.s.w	fs5,zero
+  fcvt.s.w f22,x0 
+  e0:	d0007b53          	fcvt.s.w	fs6,zero
+  fcvt.s.w f23,x0 
+  e4:	d0007bd3          	fcvt.s.w	fs7,zero
+  fcvt.s.w f24,x0 
+  e8:	d0007c53          	fcvt.s.w	fs8,zero
+  fcvt.s.w f25,x0 
+  ec:	d0007cd3          	fcvt.s.w	fs9,zero
+  fcvt.s.w f26,x0 
+  f0:	d0007d53          	fcvt.s.w	fs10,zero
+  fcvt.s.w f27,x0 
+  f4:	d0007dd3          	fcvt.s.w	fs11,zero
+  fcvt.s.w f28,x0 
+  f8:	d0007e53          	fcvt.s.w	ft8,zero
+  fcvt.s.w f29,x0 
+  fc:	d0007ed3          	fcvt.s.w	ft9,zero
+  fcvt.s.w f30,x0 
+ 100:	d0007f53          	fcvt.s.w	ft10,zero
+  fcvt.s.w f31,x0 
+ 104:	d0007fd3          	fcvt.s.w	ft11,zero
+
+
+
+  # initialize global pointer
+  la gp, _gp
+ 108:	00000197          	auipc	gp,0x0
+ 10c:	70818193          	addi	gp,gp,1800 # 810 <_gp>
+
+  la  tp, _bsg_data_end_addr + 63
+ 110:	09f00213          	li	tp,159
+ 114:	fc027213          	andi	tp,tp,-64
+  and tp, tp, -64
+ 118:	00001117          	auipc	sp,0x1
+
+  # mbt: put stack at top of local memory
+  # mbt fix for 4KB IMEM / 4KB DMEM
+  la sp, _sp
+ 11c:	ee410113          	addi	sp,sp,-284 # ffc <_bsg_elf_stack_ptr>
+ 120:	2810006f          	j	ba0 <main>
+  lw a1, -4(sp)    # argv
+  li a2, 0         # envp = NULL
+  call main
+  tail exit
+#else
+  j main
+ 124:	0000006f          	j	124 <__dmem_end+0xc4>
+
+00000128 <write_finish_signal>:
+#endif
+
+2:
+  # Should never this point
+  j 2b
+ 128:	02c02283          	lw	t0,44(zero) # 2c <__bsg_id>
+
+
+
+int write_finish_signal () 
+{
+  if (__bsg_id == 0) 
+ 12c:	00029863          	bnez	t0,13c <write_finish_signal+0x14>
+  {
+     int *signal_ptr = (int *) cuda_finish_signal_addr; 
+     *signal_ptr = cuda_finish_signal_val;     
+ 130:	04802383          	lw	t2,72(zero) # 48 <cuda_finish_signal_addr>
+ 134:	04402503          	lw	a0,68(zero) # 44 <cuda_finish_signal_val>
+ 138:	00a3a023          	sw	a0,0(t2)
+  }
+}
+ 13c:	00008067          	ret
+
+00000140 <_ZL6warmupPsS_S_S_S_S_S_ii>:
+#include <bsg_cuda_lite_barrier.h>
+
+#ifdef WARM_CACHE
+__attribute__((noinline))
+static void warmup(short *A, short *G, short *lxx,short *lyy,short *lxy, short *cim,short *Output,int N_X, int N_Y)
+{
+ 140:	ff010113          	addi	sp,sp,-16
+  int x_tile_len = N_X / bsg_tiles_X ;
+  int y_tile_len = N_Y / bsg_tiles_Y ;
+
+  //to calculate the CIM for X*Y block, we need (X+4)(Y+4) block
+  int init_index_x=(__bsg_id%bsg_tiles_X)*x_tile_len;
+ 144:	02c02e83          	lw	t4,44(zero) # 2c <__bsg_id>
+{
+ 148:	01012283          	lw	t0,16(sp)
+  int init_index_x=(__bsg_id%bsg_tiles_X)*x_tile_len;
+ 14c:	41fed393          	srai	t2,t4,0x1f
+ 150:	01d3df13          	srli	t5,t2,0x1d
+  int y_tile_len = N_Y / bsg_tiles_Y ;
+ 154:	41f2df93          	srai	t6,t0,0x1f
+{
+ 158:	00812623          	sw	s0,12(sp)
+  int x_tile_len = N_X / bsg_tiles_X ;
+ 15c:	41f8d413          	srai	s0,a7,0x1f
+  int init_index_x=(__bsg_id%bsg_tiles_X)*x_tile_len;
+ 160:	01ee8e33          	add	t3,t4,t5
+{
+ 164:	00912423          	sw	s1,8(sp)
+ 168:	01212223          	sw	s2,4(sp)
+  int x_tile_len = N_X / bsg_tiles_X ;
+ 16c:	00747493          	andi	s1,s0,7
+  int y_tile_len = N_Y / bsg_tiles_Y ;
+ 170:	003ff913          	andi	s2,t6,3
+{
+ 174:	01312023          	sw	s3,0(sp)
+  int init_index_y=(__bsg_id/bsg_tiles_X)*y_tile_len;
+ 178:	0073f993          	andi	s3,t2,7
+ 17c:	01d98333          	add	t1,s3,t4
+  int x_tile_len = N_X / bsg_tiles_X ;
+ 180:	011483b3          	add	t2,s1,a7
+  int y_tile_len = N_Y / bsg_tiles_Y ;
+ 184:	00590fb3          	add	t6,s2,t0
+  int init_index_x=(__bsg_id%bsg_tiles_X)*x_tile_len;
+ 188:	007e7493          	andi	s1,t3,7
+  int x_tile_len = N_X / bsg_tiles_X ;
+ 18c:	4033d413          	srai	s0,t2,0x3
+  int y_tile_len = N_Y / bsg_tiles_Y ;
+ 190:	402fdf93          	srai	t6,t6,0x2
+  int init_index_x=(__bsg_id%bsg_tiles_X)*x_tile_len;
+ 194:	41e48f33          	sub	t5,s1,t5
+  int init_index_y=(__bsg_id/bsg_tiles_X)*y_tile_len;
+ 198:	40335913          	srai	s2,t1,0x3
+  //calculate gray scale image
+  for (int x = 0; x < x_tile_len; x++) {
+ 19c:	00700e93          	li	t4,7
+  int init_index_x=(__bsg_id%bsg_tiles_X)*x_tile_len;
+ 1a0:	028f0e33          	mul	t3,t5,s0
+  int init_index_y=(__bsg_id/bsg_tiles_X)*y_tile_len;
+ 1a4:	03f909b3          	mul	s3,s2,t6
+  for (int x = 0; x < x_tile_len; x++) {
+ 1a8:	091edc63          	bge	t4,a7,240 <_ZL6warmupPsS_S_S_S_S_S_ii+0x100>
+ 1ac:	00050493          	mv	s1,a0
+ 1b0:	03198533          	mul	a0,s3,a7
+ 1b4:	00189393          	slli	t2,a7,0x1
+ 1b8:	01c50333          	add	t1,a0,t3
+ 1bc:	011388b3          	add	a7,t2,a7
+ 1c0:	00131513          	slli	a0,t1,0x1
+ 1c4:	00189f13          	slli	t5,a7,0x1
+ 1c8:	00000913          	li	s2,0
+    for (int y = 0; y < y_tile_len; y++) {
+ 1cc:	00300993          	li	s3,3
+ 1d0:	0659d263          	bge	s3,t0,234 <_ZL6warmupPsS_S_S_S_S_S_ii+0xf4>
+ 1d4:	00151e93          	slli	t4,a0,0x1
+ 1d8:	00ae8e33          	add	t3,t4,a0
+ 1dc:	01c48333          	add	t1,s1,t3
+ 1e0:	00050893          	mv	a7,a0
+ 1e4:	00000e13          	li	t3,0
+      int global_x=x+init_index_x;
+      int global_y=y+init_index_y;
+      int global_index=global_x+global_y*N_X;
+      asm volatile ("lw x0, %[p]" :: [p] "m" (A[global_index*3]));
+ 1e8:	00032003          	lw	zero,0(t1)
+      asm volatile ("lw x0, %[p]" :: [p] "m" (A[global_index*3+1]));
+ 1ec:	00232003          	lw	zero,2(t1)
+      asm volatile ("lw x0, %[p]" :: [p] "m" (A[global_index*3+2]));
+ 1f0:	00432003          	lw	zero,4(t1)
+      asm volatile ("sw x0, %[p]" :: [p] "m" (G[global_index]));
+ 1f4:	01158eb3          	add	t4,a1,a7
+ 1f8:	000ea023          	sw	zero,0(t4)
+      asm volatile ("sw x0, %[p]" :: [p] "m" (lxx[global_index]));
+ 1fc:	01160eb3          	add	t4,a2,a7
+ 200:	000ea023          	sw	zero,0(t4)
+      asm volatile ("sw x0, %[p]" :: [p] "m" (lyy[global_index]));
+ 204:	01168eb3          	add	t4,a3,a7
+ 208:	000ea023          	sw	zero,0(t4)
+      asm volatile ("sw x0, %[p]" :: [p] "m" (lxy[global_index]));
+ 20c:	01170eb3          	add	t4,a4,a7
+ 210:	000ea023          	sw	zero,0(t4)
+      asm volatile ("sw x0, %[p]" :: [p] "m" (cim[global_index]));
+ 214:	01178eb3          	add	t4,a5,a7
+ 218:	000ea023          	sw	zero,0(t4)
+      asm volatile ("sw x0, %[p]" :: [p] "m" (Output[global_index]));
+ 21c:	01180eb3          	add	t4,a6,a7
+ 220:	000ea023          	sw	zero,0(t4)
+    for (int y = 0; y < y_tile_len; y++) {
+ 224:	001e0e13          	addi	t3,t3,1
+ 228:	01e30333          	add	t1,t1,t5
+ 22c:	007888b3          	add	a7,a7,t2
+ 230:	fbfe4ce3          	blt	t3,t6,1e8 <_ZL6warmupPsS_S_S_S_S_S_ii+0xa8>
+  for (int x = 0; x < x_tile_len; x++) {
+ 234:	00190913          	addi	s2,s2,1
+ 238:	00250513          	addi	a0,a0,2
+ 23c:	f8894ae3          	blt	s2,s0,1d0 <_ZL6warmupPsS_S_S_S_S_S_ii+0x90>
+
+#else
+#error Unsupported Compiler!
+#endif
+
+inline void bsg_fence()      { __asm__ __volatile__("fence" :::); }
+ 240:	0ff0000f          	fence
+    }
+  }
+  bsg_fence();
+}
+ 244:	00c12403          	lw	s0,12(sp)
+ 248:	00812483          	lw	s1,8(sp)
+ 24c:	00412903          	lw	s2,4(sp)
+ 250:	00012983          	lw	s3,0(sp)
+ 254:	01010113          	addi	sp,sp,16
+ 258:	00008067          	ret
+
+0000025c <kernel_harris_color>:
+
+// harris_color: C = A + B
+// N = # of frames
+extern "C" __attribute__ ((noinline))
+int
+kernel_harris_color(short * A, short *G,short *lxx,short *lyy,short *lxy,short *cim,short *Output, int N_X, int N_Y) {
+ 25c:	f7010113          	addi	sp,sp,-144
+ 260:	07612823          	sw	s6,112(sp)
+ */
+static inline void bsg_barrier_hw_tile_group_init()
+{
+    int sense = 1;
+    // initalize csr
+    int cfg = __cuda_barrier_cfg[1+__bsg_id];
+ 264:	02c02303          	lw	t1,44(zero) # 2c <__bsg_id>
+ 268:	05802e03          	lw	t3,88(zero) # 58 <__cuda_barrier_cfg>
+ 26c:	08112623          	sw	ra,140(sp)
+ 270:	00130093          	addi	ra,t1,1
+ 274:	00209293          	slli	t0,ra,0x2
+    int sense = 1;
+ 278:	00100f13          	li	t5,1
+ 27c:	05e12623          	sw	t5,76(sp)
+    int cfg = __cuda_barrier_cfg[1+__bsg_id];
+ 280:	005e03b3          	add	t2,t3,t0
+ 284:	08812423          	sw	s0,136(sp)
+ 288:	08912223          	sw	s1,132(sp)
+ 28c:	09212023          	sw	s2,128(sp)
+ 290:	07312e23          	sw	s3,124(sp)
+ 294:	07412c23          	sw	s4,120(sp)
+ 298:	07512a23          	sw	s5,116(sp)
+ 29c:	07712623          	sw	s7,108(sp)
+ 2a0:	07812423          	sw	s8,104(sp)
+ 2a4:	07912223          	sw	s9,100(sp)
+ 2a8:	07a12023          	sw	s10,96(sp)
+    asm volatile ("csrrw x0, 0xfc1, %0" : : "r" (cfg));
+ 2ac:	0003ac83          	lw	s9,0(t2)
+ 2b0:	05b12e23          	sw	s11,92(sp)
+ 2b4:	00050a93          	mv	s5,a0
+ 2b8:	00058413          	mv	s0,a1
+ 2bc:	00060a13          	mv	s4,a2
+ 2c0:	00068913          	mv	s2,a3
+ 2c4:	00070993          	mv	s3,a4
+ 2c8:	00078c13          	mv	s8,a5
+ 2cc:	02f12a23          	sw	a5,52(sp)
+ 2d0:	00080b93          	mv	s7,a6
+ 2d4:	03012e23          	sw	a6,60(sp)
+ 2d8:	00088493          	mv	s1,a7
+ 2dc:	fc1c9073          	csrw	0xfc1,s9
+    // reset Pi
+    asm volatile ("csrrwi x0, 0xfc2, 0");
+ 2e0:	fc205073          	csrwi	0xfc2,0
+    // sync with amoadd barrier
+    bsg_barrier_amoadd(&__cuda_barrier_cfg[0], &sense);
+ 2e4:	05802503          	lw	a0,88(zero) # 58 <__cuda_barrier_cfg>
+ 2e8:	04c10593          	addi	a1,sp,76
+ 2ec:	049000ef          	jal	ra,b34 <bsg_barrier_amoadd>
+
+  bsg_barrier_hw_tile_group_init();
+#ifdef WARM_CACHE
+  warmup(A, G, lxx, lyy,lxy,cim,Output, N_X,N_Y);
+ 2f0:	09012783          	lw	a5,144(sp)
+ 2f4:	00048893          	mv	a7,s1
+ 2f8:	00f12023          	sw	a5,0(sp)
+ 2fc:	000b8813          	mv	a6,s7
+ 300:	000c0793          	mv	a5,s8
+ 304:	00098713          	mv	a4,s3
+ 308:	00090693          	mv	a3,s2
+ 30c:	000a0613          	mv	a2,s4
+ 310:	00040593          	mv	a1,s0
+ 314:	000a8513          	mv	a0,s5
+ 318:	e29ff0ef          	jal	ra,140 <_ZL6warmupPsS_S_S_S_S_S_ii>
+
+// Barrier Send
+// Initiate the hw barrier by flipping the BAR PI register.
+static inline void bsg_barsend()
+{
+  asm volatile (".word 0x1000000f");
+ 31c:	1000000f          	0x1000000f
+
+// Barrier Receive
+// Wait for the barrier in progress to complete (until Pi==Po).
+static inline void bsg_barrecv()
+{
+  asm volatile (".word 0x2000000f");
+ 320:	2000000f          	0x2000000f
+  bsg_barrier_hw_tile_group_sync();
+
+  //original program
+  // Each tile does a portion of vector_add
+  int x_tile_len = N_X ; //64
+  int y_tile_len = N_Y / bsg_tiles_Y /bsg_tiles_X; //64/32=2
+ 324:	09012503          	lw	a0,144(sp)
+
+  int Cinit;//image tile initial
+
+  int global_memory_offset=(__bsg_id%bsg_tiles_X)<<16 + (__bsg_id/bsg_tiles_X)<<23;
+ 328:	02c02603          	lw	a2,44(zero) # 2c <__bsg_id>
+  int y_tile_len = N_Y / bsg_tiles_Y /bsg_tiles_X; //64/32=2
+ 32c:	09012d83          	lw	s11,144(sp)
+ 330:	41f55693          	srai	a3,a0,0x1f
+  int global_memory_offset=(__bsg_id%bsg_tiles_X)<<16 + (__bsg_id/bsg_tiles_X)<<23;
+ 334:	41f65713          	srai	a4,a2,0x1f
+  int y_tile_len = N_Y / bsg_tiles_Y /bsg_tiles_X; //64/32=2
+ 338:	01f6f813          	andi	a6,a3,31
+  int global_memory_offset=(__bsg_id%bsg_tiles_X)<<16 + (__bsg_id/bsg_tiles_X)<<23;
+ 33c:	01d75593          	srli	a1,a4,0x1d
+  int y_tile_len = N_Y / bsg_tiles_Y /bsg_tiles_X; //64/32=2
+ 340:	01b80fb3          	add	t6,a6,s11
+  int global_memory_offset=(__bsg_id%bsg_tiles_X)<<16 + (__bsg_id/bsg_tiles_X)<<23;
+ 344:	00b608b3          	add	a7,a2,a1
+ 348:	00777d13          	andi	s10,a4,7
+  int y_tile_len = N_Y / bsg_tiles_Y /bsg_tiles_X; //64/32=2
+ 34c:	405fde13          	srai	t3,t6,0x5
+  int global_memory_offset=(__bsg_id%bsg_tiles_X)<<16 + (__bsg_id/bsg_tiles_X)<<23;
+ 350:	0078fb13          	andi	s6,a7,7
+ 354:	00cd0333          	add	t1,s10,a2
+  //up plane
+  if(__bsg_id/16<1){
+ 358:	00f00e93          	li	t4,15
+  int y_tile_len = N_Y / bsg_tiles_Y /bsg_tiles_X; //64/32=2
+ 35c:	01c12c23          	sw	t3,24(sp)
+  int global_memory_offset=(__bsg_id%bsg_tiles_X)<<16 + (__bsg_id/bsg_tiles_X)<<23;
+ 360:	40bb02b3          	sub	t0,s6,a1
+ 364:	40335f13          	srai	t5,t1,0x3
+  if(__bsg_id/16<1){
+ 368:	42cec263          	blt	t4,a2,78c <kernel_harris_color+0x530>
+    //left plane
+    if(__bsg_id%8<4) {
+ 36c:	00300593          	li	a1,3
+ 370:	002f1713          	slli	a4,t5,0x2
+ 374:	5655ce63          	blt	a1,t0,8f0 <_gp+0xe0>
+        Cinit=((__bsg_id/8)*4+(__bsg_id%8))*16;
+ 378:	00e28db3          	add	s11,t0,a4
+ 37c:	004d9613          	slli	a2,s11,0x4
+          Cinit=((__bsg_id/8-2)*4+(__bsg_id%8-4))*16+8+4;
+      }
+  }
+
+  int init_index_x=0;
+  int init_index_y=(Cinit/2);
+ 380:	40165313          	srai	t1,a2,0x1
+  int init_index=init_index_y*N_X;
+  //int init_index_inline=init_index_x+init_index_y*N_X;
+  register short int myA[12];
+  register short int myG[4];
+  //calculate gray scale image
+  for (int x = 0; x < N_X*y_tile_len; x+=4) {
+ 384:	01812f83          	lw	t6,24(sp)
+  int init_index=init_index_y*N_X;
+ 388:	02648eb3          	mul	t4,s1,t1
+  for (int x = 0; x < N_X*y_tile_len; x+=4) {
+ 38c:	03f48b33          	mul	s6,s1,t6
+  int init_index_y=(Cinit/2);
+ 390:	00612a23          	sw	t1,20(sp)
+  int init_index=init_index_y*N_X;
+ 394:	03d12c23          	sw	t4,56(sp)
+  for (int x = 0; x < N_X*y_tile_len; x+=4) {
+ 398:	43604863          	bgtz	s6,7c8 <kernel_harris_color+0x56c>
+  asm volatile (".word 0x1000000f");
+ 39c:	1000000f          	0x1000000f
+  asm volatile (".word 0x2000000f");
+ 3a0:	2000000f          	0x2000000f
+  short bot;
+  short bot_right;
+  short grad_x_local;
+  short grad_y_local;
+
+  for(int y=0;y<y_tile_len;y++){
+ 3a4:	09012d83          	lw	s11,144(sp)
+ 3a8:	01f00d13          	li	s10,31
+ 3ac:	19bd5863          	bge	s10,s11,53c <kernel_harris_color+0x2e0>
+ 3b0:	01412f83          	lw	t6,20(sp)
+ 3b4:	80000637          	lui	a2,0x80000
+ 3b8:	03812c83          	lw	s9,56(sp)
+    if(((y+init_index_y)==0) || ((y+init_index_y)==N_Y-1)) continue;
+ 3bc:	09012583          	lw	a1,144(sp)
+ 3c0:	fff64f13          	not	t5,a2
+ 3c4:	ffff8893          	addi	a7,t6,-1
+ 3c8:	001f8813          	addi	a6,t6,1
+ 3cc:	01e483b3          	add	t2,s1,t5
+ 3d0:	01938b33          	add	s6,t2,s9
+ 3d4:	fff58293          	addi	t0,a1,-1
+ 3d8:	02988c33          	mul	s8,a7,s1
+ 3dc:	02980bb3          	mul	s7,a6,s1
+ 3e0:	001b1a93          	slli	s5,s6,0x1
+ 3e4:	00149093          	slli	ra,s1,0x1
+  for(int y=0;y<y_tile_len;y++){
+ 3e8:	00000b13          	li	s6,0
+    if(((y+init_index_y)==0) || ((y+init_index_y)==N_Y-1)) continue;
+ 3ec:	00512e23          	sw	t0,28(sp)
+ 3f0:	0b400e93          	li	t4,180
+
+      grad_y_local=top_left+2*top+top_right-bot_left-2*bot-bot_right;
+      if(grad_y_local<-180) grad_y_local=-180;
+      else if(grad_y_local>180) grad_y_local=180;
+
+      lxx[global_index]=grad_x_local*grad_x_local>>6; //lxx
+ 3f4:	f4c00e13          	li	t3,-180
+    if(((y+init_index_y)==0) || ((y+init_index_y)==N_Y-1)) continue;
+ 3f8:	01412503          	lw	a0,20(sp)
+ 3fc:	00ab06b3          	add	a3,s6,a0
+ 400:	12068063          	beqz	a3,520 <kernel_harris_color+0x2c4>
+ 404:	01c12703          	lw	a4,28(sp)
+ 408:	10d70c63          	beq	a4,a3,520 <kernel_harris_color+0x2c4>
+    for(int x=1;x<x_tile_len-1;x++){
+ 40c:	00200313          	li	t1,2
+ 410:	10935863          	bge	t1,s1,520 <kernel_harris_color+0x2c4>
+ 414:	001c9793          	slli	a5,s9,0x1
+ 418:	001c1d13          	slli	s10,s8,0x1
+ 41c:	001b9d93          	slli	s11,s7,0x1
+ 420:	008d05b3          	add	a1,s10,s0
+ 424:	00878533          	add	a0,a5,s0
+ 428:	008d8633          	add	a2,s11,s0
+ 42c:	00278693          	addi	a3,a5,2
+      grad_x_local=top_right-top_left-2*left+2*right-bot_left+bot_right;
+ 430:	0045df83          	lhu	t6,4(a1)
+ 434:	00465883          	lhu	a7,4(a2) # 80000004 <_bsg_dram_end_addr+0xfeffff64>
+ 438:	0005df03          	lhu	t5,0(a1)
+ 43c:	00455283          	lhu	t0,4(a0)
+ 440:	00055803          	lhu	a6,0(a0)
+ 444:	011f87b3          	add	a5,t6,a7
+ 448:	00065303          	lhu	t1,0(a2)
+ 44c:	41028733          	sub	a4,t0,a6
+ 450:	41e78d33          	sub	s10,a5,t5
+      grad_y_local=top_left+2*top+top_right-bot_left-2*bot-bot_right;
+ 454:	01ef83b3          	add	t2,t6,t5
+      grad_x_local=top_right-top_left-2*left+2*right-bot_left+bot_right;
+ 458:	00171d93          	slli	s11,a4,0x1
+ 45c:	406d0f33          	sub	t5,s10,t1
+ 460:	01ed8733          	add	a4,s11,t5
+ 464:	01071293          	slli	t0,a4,0x10
+ 468:	4102d813          	srai	a6,t0,0x10
+      lyy[global_index]=grad_y_local*grad_y_local>>6; //lxx
+ 46c:	00d90fb3          	add	t6,s2,a3
+      lxy[global_index]=grad_x_local*grad_y_local>>6; //lxx
+ 470:	00d98d33          	add	s10,s3,a3
+      lxx[global_index]=grad_x_local*grad_x_local>>6; //lxx
+ 474:	00da0f33          	add	t5,s4,a3
+ 478:	00268693          	addi	a3,a3,2
+ 47c:	010ed463          	bge	t4,a6,484 <kernel_harris_color+0x228>
+ 480:	0b400713          	li	a4,180
+      grad_y_local=top_left+2*top+top_right-bot_left-2*bot-bot_right;
+ 484:	0025d783          	lhu	a5,2(a1)
+ 488:	00265d83          	lhu	s11,2(a2)
+ 48c:	00179293          	slli	t0,a5,0x1
+ 490:	007283b3          	add	t2,t0,t2
+ 494:	40638333          	sub	t1,t2,t1
+ 498:	001d9813          	slli	a6,s11,0x1
+ 49c:	411308b3          	sub	a7,t1,a7
+ 4a0:	410883b3          	sub	t2,a7,a6
+ 4a4:	01039793          	slli	a5,t2,0x10
+ 4a8:	01071713          	slli	a4,a4,0x10
+ 4ac:	4107dd93          	srai	s11,a5,0x10
+ 4b0:	41075293          	srai	t0,a4,0x10
+      if(grad_y_local<-180) grad_y_local=-180;
+ 4b4:	01bed463          	bge	t4,s11,4bc <kernel_harris_color+0x260>
+ 4b8:	0b400393          	li	t2,180
+ 4bc:	01039313          	slli	t1,t2,0x10
+ 4c0:	41035893          	srai	a7,t1,0x10
+      lxx[global_index]=grad_x_local*grad_x_local>>6; //lxx
+ 4c4:	00028813          	mv	a6,t0
+ 4c8:	01c2d463          	bge	t0,t3,4d0 <kernel_harris_color+0x274>
+ 4cc:	f4c00813          	li	a6,-180
+ 4d0:	01081793          	slli	a5,a6,0x10
+ 4d4:	4107dd93          	srai	s11,a5,0x10
+ 4d8:	03bd8733          	mul	a4,s11,s11
+      lyy[global_index]=grad_y_local*grad_y_local>>6; //lxx
+ 4dc:	00088393          	mv	t2,a7
+      lxx[global_index]=grad_x_local*grad_x_local>>6; //lxx
+ 4e0:	40675293          	srai	t0,a4,0x6
+ 4e4:	005f1023          	sh	t0,0(t5)
+      lyy[global_index]=grad_y_local*grad_y_local>>6; //lxx
+ 4e8:	01c8d463          	bge	a7,t3,4f0 <kernel_harris_color+0x294>
+ 4ec:	f4c00393          	li	t2,-180
+ 4f0:	01039f13          	slli	t5,t2,0x10
+ 4f4:	410f5313          	srai	t1,t5,0x10
+ 4f8:	026308b3          	mul	a7,t1,t1
+      lxy[global_index]=grad_x_local*grad_y_local>>6; //lxx
+ 4fc:	026d87b3          	mul	a5,s11,t1
+      lyy[global_index]=grad_y_local*grad_y_local>>6; //lxx
+ 500:	4068d813          	srai	a6,a7,0x6
+ 504:	010f9023          	sh	a6,0(t6)
+      lxy[global_index]=grad_x_local*grad_y_local>>6; //lxx
+ 508:	4067df93          	srai	t6,a5,0x6
+ 50c:	01fd1023          	sh	t6,0(s10)
+    for(int x=1;x<x_tile_len-1;x++){
+ 510:	00258593          	addi	a1,a1,2
+ 514:	00250513          	addi	a0,a0,2
+ 518:	00260613          	addi	a2,a2,2
+ 51c:	f0da9ae3          	bne	s5,a3,430 <kernel_harris_color+0x1d4>
+  for(int y=0;y<y_tile_len;y++){
+ 520:	01812d03          	lw	s10,24(sp)
+ 524:	001b0b13          	addi	s6,s6,1
+ 528:	009c8cb3          	add	s9,s9,s1
+ 52c:	009c0c33          	add	s8,s8,s1
+ 530:	009b8bb3          	add	s7,s7,s1
+ 534:	001a8ab3          	add	s5,s5,ra
+ 538:	edab40e3          	blt	s6,s10,3f8 <kernel_harris_color+0x19c>
+  asm volatile (".word 0x1000000f");
+ 53c:	1000000f          	0x1000000f
+  asm volatile (".word 0x2000000f");
+ 540:	2000000f          	0x2000000f
+  short lgyy8;
+  short lgxy8;
+
+  register short int lxxyy[9];
+
+  for(int y=0;y<y_tile_len;y++){
+ 544:	09012083          	lw	ra,144(sp)
+ 548:	01f00413          	li	s0,31
+ 54c:	3a145c63          	bge	s0,ra,904 <_gp+0xf4>
+ 550:	01412e03          	lw	t3,20(sp)
+ 554:	00149713          	slli	a4,s1,0x1
+    if(((y+init_index_y)<2) || ((y+init_index_y)>N_Y-3)) continue;
+ 558:	09012783          	lw	a5,144(sp)
+ 55c:	fffe0693          	addi	a3,t3,-1
+ 560:	001e0293          	addi	t0,t3,1
+ 564:	03c70db3          	mul	s11,a4,t3
+ 568:	02968f33          	mul	t5,a3,s1
+ 56c:	02928333          	mul	t1,t0,s1
+ 570:	03812883          	lw	a7,56(sp)
+ 574:	ff8a0393          	addi	t2,s4,-8
+ 578:	ffe78813          	addi	a6,a5,-2
+ 57c:	02e12623          	sw	a4,44(sp)
+ 580:	03e12223          	sw	t5,36(sp)
+ 584:	02612023          	sw	t1,32(sp)
+ 588:	03112423          	sw	a7,40(sp)
+ 58c:	01b38733          	add	a4,t2,s11
+  for(int y=0;y<y_tile_len;y++){
+ 590:	00012e23          	sw	zero,28(sp)
+    if(((y+init_index_y)<2) || ((y+init_index_y)>N_Y-3)) continue;
+ 594:	03012823          	sw	a6,48(sp)
+ 598:	0440006f          	j	5dc <kernel_harris_color+0x380>
+  for(int y=0;y<y_tile_len;y++){
+ 59c:	01c12b83          	lw	s7,28(sp)
+ 5a0:	02812503          	lw	a0,40(sp)
+ 5a4:	02412603          	lw	a2,36(sp)
+ 5a8:	02012683          	lw	a3,32(sp)
+ 5ac:	02c12783          	lw	a5,44(sp)
+ 5b0:	001b8b13          	addi	s6,s7,1
+ 5b4:	00950ab3          	add	s5,a0,s1
+ 5b8:	009600b3          	add	ra,a2,s1
+ 5bc:	009685b3          	add	a1,a3,s1
+ 5c0:	01812d83          	lw	s11,24(sp)
+ 5c4:	01612e23          	sw	s6,28(sp)
+ 5c8:	03512423          	sw	s5,40(sp)
+ 5cc:	02112223          	sw	ra,36(sp)
+ 5d0:	02b12023          	sw	a1,32(sp)
+ 5d4:	00f70733          	add	a4,a4,a5
+ 5d8:	33bb5663          	bge	s6,s11,904 <_gp+0xf4>
+    if(((y+init_index_y)<2) || ((y+init_index_y)>N_Y-3)) continue;
+ 5dc:	01c12f83          	lw	t6,28(sp)
+ 5e0:	01412583          	lw	a1,20(sp)
+ 5e4:	00100613          	li	a2,1
+ 5e8:	00bf8533          	add	a0,t6,a1
+ 5ec:	faa658e3          	bge	a2,a0,59c <kernel_harris_color+0x340>
+ 5f0:	03012b03          	lw	s6,48(sp)
+ 5f4:	fb6554e3          	bge	a0,s6,59c <kernel_harris_color+0x340>
+    for(int x=2;x<x_tile_len-2;x++){
+ 5f8:	00400c93          	li	s9,4
+ 5fc:	fa9cd0e3          	bge	s9,s1,59c <kernel_harris_color+0x340>
+ 600:	02812403          	lw	s0,40(sp)
+ 604:	02412c03          	lw	s8,36(sp)
+ 608:	02012a83          	lw	s5,32(sp)
+ 60c:	03412d83          	lw	s11,52(sp)
+ 610:	00141093          	slli	ra,s0,0x1
+ 614:	001c1b93          	slli	s7,s8,0x1
+ 618:	001a9d13          	slli	s10,s5,0x1
+ 61c:	017a0833          	add	a6,s4,s7
+ 620:	00870413          	addi	s0,a4,8
+ 624:	01aa03b3          	add	t2,s4,s10
+ 628:	017902b3          	add	t0,s2,s7
+ 62c:	01208fb3          	add	t6,ra,s2
+ 630:	01a90f33          	add	t5,s2,s10
+ 634:	01798e33          	add	t3,s3,s7
+ 638:	00198eb3          	add	t4,s3,ra
+ 63c:	01a98333          	add	t1,s3,s10
+ 640:	001d88b3          	add	a7,s11,ra
+      lgxx8 +=lxxyy[2];
+      lgxx8 +=lxxyy[3];
+      lgxx8 +=lxxyy[4];
+      lgxx8 +=lxxyy[5];
+      lgxx8 +=lxxyy[6];
+      lgxx8 +=lxxyy[7];
+ 644:	00485a83          	lhu	s5,4(a6)
+ 648:	00285503          	lhu	a0,2(a6)
+      lgyy8+=lxxyy[2];
+      lgyy8+=lxxyy[3];
+      lgyy8+=lxxyy[4];
+      lgyy8+=lxxyy[5];
+      lgyy8+=lxxyy[6];
+      lgyy8+=lxxyy[7];
+ 64c:	0022d603          	lhu	a2,2(t0) # 3002 <_bsg_elf_stack_ptr+0x2006>
+      lgxy8+=lxxyy[2];
+      lgxy8+=lxxyy[3];
+      lgxy8+=lxxyy[4];
+      lgxy8+=lxxyy[5];
+      lgxy8+=lxxyy[6];
+      lgxy8+=lxxyy[7];
+ 650:	004e5683          	lhu	a3,4(t3)
+      lgyy8+=lxxyy[7];
+ 654:	0042d583          	lhu	a1,4(t0)
+      lgxy8+=lxxyy[7];
+ 658:	002e5783          	lhu	a5,2(t3)
+      lgxx8 +=lxxyy[7];
+ 65c:	00685083          	lhu	ra,6(a6)
+      lgyy8+=lxxyy[7];
+ 660:	0062dd03          	lhu	s10,6(t0)
+      lgxy8+=lxxyy[7];
+ 664:	006e5c83          	lhu	s9,6(t3)
+      lgxx8 +=lxxyy[7];
+ 668:	00245c03          	lhu	s8,2(s0)
+      lgyy8+=lxxyy[7];
+ 66c:	002fdb83          	lhu	s7,2(t6)
+      lgxy8+=lxxyy[7];
+ 670:	002edb03          	lhu	s6,2(t4)
+      lgxx8 +=lxxyy[7];
+ 674:	00aa8db3          	add	s11,s5,a0
+      lgyy8+=lxxyy[7];
+ 678:	00c585b3          	add	a1,a1,a2
+      lgxy8+=lxxyy[7];
+ 67c:	00f687b3          	add	a5,a3,a5
+      lgxx8 +=lxxyy[7];
+ 680:	00445a83          	lhu	s5,4(s0)
+      lgyy8+=lxxyy[7];
+ 684:	004fd603          	lhu	a2,4(t6)
+      lgxy8+=lxxyy[7];
+ 688:	004ed683          	lhu	a3,4(t4)
+      lgxx8 +=lxxyy[7];
+ 68c:	001d8533          	add	a0,s11,ra
+      lgxy8+=lxxyy[7];
+ 690:	019787b3          	add	a5,a5,s9
+      lgyy8+=lxxyy[7];
+ 694:	01a580b3          	add	ra,a1,s10
+      lgxx8 +=lxxyy[7];
+ 698:	00645d83          	lhu	s11,6(s0)
+      lgyy8+=lxxyy[7];
+ 69c:	006fdd03          	lhu	s10,6(t6)
+      lgxy8+=lxxyy[7];
+ 6a0:	006edc83          	lhu	s9,6(t4)
+      lgyy8+=lxxyy[7];
+ 6a4:	017085b3          	add	a1,ra,s7
+      lgxx8 +=lxxyy[7];
+ 6a8:	01850533          	add	a0,a0,s8
+      lgxy8+=lxxyy[7];
+ 6ac:	016780b3          	add	ra,a5,s6
+      lgxx8 +=lxxyy[7];
+ 6b0:	0023dc03          	lhu	s8,2(t2)
+      lgyy8+=lxxyy[7];
+ 6b4:	002f5b83          	lhu	s7,2(t5)
+      lgxy8+=lxxyy[7];
+ 6b8:	00235b03          	lhu	s6,2(t1)
+      lgxx8 +=lxxyy[7];
+ 6bc:	01550533          	add	a0,a0,s5
+      lgxy8+=lxxyy[7];
+ 6c0:	00d087b3          	add	a5,ra,a3
+      lgyy8+=lxxyy[7];
+ 6c4:	00c585b3          	add	a1,a1,a2
+      lgxx8 +=lxxyy[7];
+ 6c8:	0043da83          	lhu	s5,4(t2)
+      lgyy8+=lxxyy[7];
+ 6cc:	004f5603          	lhu	a2,4(t5)
+      lgxy8+=lxxyy[7];
+ 6d0:	00435683          	lhu	a3,4(t1)
+      lgxx8 +=lxxyy[7];
+ 6d4:	01b500b3          	add	ra,a0,s11
+      lgyy8+=lxxyy[7];
+ 6d8:	01a585b3          	add	a1,a1,s10
+      lgxy8+=lxxyy[7];
+ 6dc:	019787b3          	add	a5,a5,s9
+      lgxx8 +=lxxyy[7];
+ 6e0:	01808c33          	add	s8,ra,s8
+      lgxy8+=lxxyy[8];
+ 6e4:	00635c83          	lhu	s9,6(t1)
+      lgyy8+=lxxyy[7];
+ 6e8:	01758bb3          	add	s7,a1,s7
+      lgxy8+=lxxyy[7];
+ 6ec:	01678b33          	add	s6,a5,s6
+      lgxx8 +=lxxyy[8];
+ 6f0:	0063dd83          	lhu	s11,6(t2)
+      lgyy8+=lxxyy[8];
+ 6f4:	006f5d03          	lhu	s10,6(t5)
+      lgxx8 +=lxxyy[7];
+ 6f8:	015c0533          	add	a0,s8,s5
+      lgyy8+=lxxyy[7];
+ 6fc:	00cb8ab3          	add	s5,s7,a2
+      lgxy8+=lxxyy[7];
+ 700:	00db0633          	add	a2,s6,a3
+      lgxy8+=lxxyy[8];
+ 704:	019607b3          	add	a5,a2,s9
+      lgxx8 +=lxxyy[8];
+ 708:	01b506b3          	add	a3,a0,s11
+      lgyy8+=lxxyy[8];
+ 70c:	01aa80b3          	add	ra,s5,s10
+      lgxy8=lgxy8>>6;
+ 710:	01079c13          	slli	s8,a5,0x10
+      lgxx8 =lgxx8>>6;
+ 714:	01069593          	slli	a1,a3,0x10
+      lgyy8=lgyy8>>6;
+ 718:	01009d13          	slli	s10,ra,0x10
+      lgxy8=lgxy8>>6;
+ 71c:	410c5b93          	srai	s7,s8,0x10
+      lgxx8 =lgxx8>>6;
+ 720:	4105dd93          	srai	s11,a1,0x10
+      lgyy8=lgyy8>>6;
+ 724:	410d5c93          	srai	s9,s10,0x10
+      lgxy8=lgxy8>>6;
+ 728:	406bda93          	srai	s5,s7,0x6
+      lgxx8 =lgxx8>>6;
+ 72c:	406ddb13          	srai	s6,s11,0x6
+      lgyy8=lgyy8>>6;
+ 730:	406cd513          	srai	a0,s9,0x6
+      short int det=lgxx8*lgyy8 - lgxy8*lgxy8;
+ 734:	010a9613          	slli	a2,s5,0x10
+ 738:	01065093          	srli	ra,a2,0x10
+      cim[global_index] = (short) det- ((lgxx8+lgyy8)*(lgxx8+lgyy8) >> 4);
+ 73c:	00ab06b3          	add	a3,s6,a0
+      short int det=lgxx8*lgyy8 - lgxy8*lgxy8;
+ 740:	02ab05b3          	mul	a1,s6,a0
+ 744:	021087b3          	mul	a5,ra,ra
+      cim[global_index] = (short) det- ((lgxx8+lgyy8)*(lgxx8+lgyy8) >> 4);
+ 748:	02d68db3          	mul	s11,a3,a3
+      short int det=lgxx8*lgyy8 - lgxy8*lgxy8;
+ 74c:	40f58d33          	sub	s10,a1,a5
+      cim[global_index] = (short) det- ((lgxx8+lgyy8)*(lgxx8+lgyy8) >> 4);
+ 750:	404ddc93          	srai	s9,s11,0x4
+ 754:	419d0c33          	sub	s8,s10,s9
+ 758:	01889223          	sh	s8,4(a7)
+    for(int x=2;x<x_tile_len-2;x++){
+ 75c:	00280813          	addi	a6,a6,2
+ 760:	00240413          	addi	s0,s0,2
+ 764:	00238393          	addi	t2,t2,2
+ 768:	00228293          	addi	t0,t0,2
+ 76c:	002f8f93          	addi	t6,t6,2
+ 770:	002f0f13          	addi	t5,t5,2
+ 774:	002e0e13          	addi	t3,t3,2
+ 778:	002e8e93          	addi	t4,t4,2
+ 77c:	00230313          	addi	t1,t1,2
+ 780:	00288893          	addi	a7,a7,2
+ 784:	ed0710e3          	bne	a4,a6,644 <kernel_harris_color+0x3e8>
+ 788:	e15ff06f          	j	59c <kernel_harris_color+0x340>
+      if(__bsg_id%8<4) {
+ 78c:	ffef0093          	addi	ra,t5,-2
+ 790:	00300393          	li	t2,3
+ 794:	00209c93          	slli	s9,ra,0x2
+ 798:	1453d463          	bge	t2,t0,8e0 <_gp+0xd0>
+          Cinit=((__bsg_id/8-2)*4+(__bsg_id%8-4))*16+8+4;
+ 79c:	ffc28c13          	addi	s8,t0,-4
+ 7a0:	019c0bb3          	add	s7,s8,s9
+ 7a4:	004b9793          	slli	a5,s7,0x4
+ 7a8:	00c78613          	addi	a2,a5,12
+  int init_index_y=(Cinit/2);
+ 7ac:	40165313          	srai	t1,a2,0x1
+  for (int x = 0; x < N_X*y_tile_len; x+=4) {
+ 7b0:	01812f83          	lw	t6,24(sp)
+  int init_index=init_index_y*N_X;
+ 7b4:	02648eb3          	mul	t4,s1,t1
+  for (int x = 0; x < N_X*y_tile_len; x+=4) {
+ 7b8:	03f48b33          	mul	s6,s1,t6
+  int init_index_y=(Cinit/2);
+ 7bc:	00612a23          	sw	t1,20(sp)
+  int init_index=init_index_y*N_X;
+ 7c0:	03d12c23          	sw	t4,56(sp)
+  for (int x = 0; x < N_X*y_tile_len; x+=4) {
+ 7c4:	bd605ce3          	blez	s6,39c <kernel_harris_color+0x140>
+ 7c8:	03812283          	lw	t0,56(sp)
+ 7cc:	fffb0e13          	addi	t3,s6,-1
+ 7d0:	00129093          	slli	ra,t0,0x1
+ 7d4:	ffce7393          	andi	t2,t3,-4
+ 7d8:	00508cb3          	add	s9,ra,t0
+ 7dc:	00538c33          	add	s8,t2,t0
+ 7e0:	001c9b93          	slli	s7,s9,0x1
+ 7e4:	001c1613          	slli	a2,s8,0x1
+ 7e8:	00840513          	addi	a0,s0,8
+ 7ec:	017a87b3          	add	a5,s5,s7
+ 7f0:	00140eb3          	add	t4,s0,ra
+ 7f4:	00a60d33          	add	s10,a2,a0
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 7f8:	04d00d93          	li	s11,77
+ 7fc:	09600f93          	li	t6,150
+ 800:	00a79f03          	lh	t5,10(a5)
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 804:	01079b03          	lh	s6,16(a5)
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 808:	01679083          	lh	ra,22(a5)
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 80c:	00479583          	lh	a1,4(a5)
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 810:	00679383          	lh	t2,6(a5)
+ 814:	00879c83          	lh	s9,8(a5)
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 818:	00c79683          	lh	a3,12(a5)
+ 81c:	00e79c03          	lh	s8,14(a5)
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 820:	01279a83          	lh	s5,18(a5)
+ 824:	01479703          	lh	a4,20(a5)
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 828:	00079283          	lh	t0,0(a5)
+ 82c:	00279503          	lh	a0,2(a5)
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 830:	003f1e13          	slli	t3,t5,0x3
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 834:	003b1313          	slli	t1,s6,0x3
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 838:	00309893          	slli	a7,ra,0x3
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 83c:	00359813          	slli	a6,a1,0x3
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 840:	03fc0bb3          	mul	s7,s8,t6
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 844:	03b38633          	mul	a2,t2,s11
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 848:	03ba8c33          	mul	s8,s5,s11
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 84c:	03fc83b3          	mul	t2,s9,t6
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 850:	03f70ab3          	mul	s5,a4,t6
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 854:	03b68cb3          	mul	s9,a3,s11
+ 858:	41630733          	sub	a4,t1,s6
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 85c:	41ee06b3          	sub	a3,t3,t5
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 860:	03b282b3          	mul	t0,t0,s11
+ 864:	03f50533          	mul	a0,a0,t6
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 868:	401888b3          	sub	a7,a7,ra
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 86c:	40b80833          	sub	a6,a6,a1
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 870:	00269e13          	slli	t3,a3,0x2
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 874:	00271313          	slli	t1,a4,0x2
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 878:	00289893          	slli	a7,a7,0x2
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 87c:	00281813          	slli	a6,a6,0x2
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 880:	00760633          	add	a2,a2,t2
+ 884:	01ee0f33          	add	t5,t3,t5
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 888:	017c83b3          	add	t2,s9,s7
+ 88c:	01630b33          	add	s6,t1,s6
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 890:	015c0cb3          	add	s9,s8,s5
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 894:	00a28bb3          	add	s7,t0,a0
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 898:	001880b3          	add	ra,a7,ra
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 89c:	00b805b3          	add	a1,a6,a1
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 8a0:	01e60c33          	add	s8,a2,t5
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 8a4:	01638ab3          	add	s5,t2,s6
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 8a8:	001c82b3          	add	t0,s9,ra
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 8ac:	00bb8533          	add	a0,s7,a1
+      myG[1]=(short int) ((77 *myA[3] + 150 * myA[4]+ 29 * myA[5]) >> 8);
+ 8b0:	408c5713          	srai	a4,s8,0x8
+      myG[2]=(short int) ((77 *myA[6] + 150 * myA[7]+ 29 * myA[8]) >> 8);
+ 8b4:	408ad693          	srai	a3,s5,0x8
+      myG[3]=(short int) ((77 *myA[9] + 150 * myA[10]+ 29 * myA[11]) >> 8);
+ 8b8:	4082de13          	srai	t3,t0,0x8
+      myG[0]=(short int) ((77 *myA[0] + 150 * myA[1]+ 29 * myA[2]) >> 8);
+ 8bc:	40855313          	srai	t1,a0,0x8
+ 8c0:	006e9023          	sh	t1,0(t4)
+      G[global_index+1]=myG[1];
+ 8c4:	00ee9123          	sh	a4,2(t4)
+      G[global_index+2]=myG[2];
+ 8c8:	00de9223          	sh	a3,4(t4)
+      G[global_index+3]=myG[3];
+ 8cc:	01ce9323          	sh	t3,6(t4)
+  for (int x = 0; x < N_X*y_tile_len; x+=4) {
+ 8d0:	008e8e93          	addi	t4,t4,8
+ 8d4:	01878793          	addi	a5,a5,24
+ 8d8:	f3dd14e3          	bne	s10,t4,800 <kernel_harris_color+0x5a4>
+ 8dc:	ac1ff06f          	j	39c <kernel_harris_color+0x140>
+          Cinit=((__bsg_id/8-2)*4+(__bsg_id%8))*16+8;
+ 8e0:	01928533          	add	a0,t0,s9
+ 8e4:	00451693          	slli	a3,a0,0x4
+ 8e8:	00868613          	addi	a2,a3,8
+ 8ec:	ec1ff06f          	j	7ac <kernel_harris_color+0x550>
+        Cinit=((__bsg_id/8)*4+(__bsg_id%8-4))*16+4;
+ 8f0:	ffc28813          	addi	a6,t0,-4
+ 8f4:	00e808b3          	add	a7,a6,a4
+ 8f8:	00489d13          	slli	s10,a7,0x4
+ 8fc:	004d0613          	addi	a2,s10,4
+ 900:	eadff06f          	j	7ac <kernel_harris_color+0x550>
+  asm volatile (".word 0x1000000f");
+ 904:	1000000f          	0x1000000f
+  asm volatile (".word 0x2000000f");
+ 908:	2000000f          	0x2000000f
+    }
+  }
+ 
+  //bsg_fence();
+bsg_barrier_hw_tile_group_sync();
+bsg_cuda_print_stat_kernel_start();
+ 90c:	02402d03          	lw	s10,36(zero) # 24 <__bsg_grp_org_y>
+ 910:	03002c83          	lw	s9,48(zero) # 30 <__bsg_y>
+ 914:	02802c03          	lw	s8,40(zero) # 28 <__bsg_grp_org_x>
+ 918:	03402803          	lw	a6,52(zero) # 34 <__bsg_x>
+ 91c:	019d02b3          	add	t0,s10,s9
+ 920:	01002383          	lw	t2,16(zero) # 10 <__bsg_tile_group_id>
+ 924:	010c0fb3          	add	t6,s8,a6
+ 928:	01829f13          	slli	t5,t0,0x18
+ 92c:	012f9e13          	slli	t3,t6,0x12
+ 930:	3f000eb7          	lui	t4,0x3f000
+ 934:	00fc08b7          	lui	a7,0xfc0
+ 938:	00040637          	lui	a2,0x40
+ 93c:	01df7333          	and	t1,t5,t4
+ 940:	011e7bb3          	and	s7,t3,a7
+ 944:	00439b13          	slli	s6,t2,0x4
+ 948:	ff060093          	addi	ra,a2,-16 # 3fff0 <_bsg_elf_stack_ptr+0x3eff4>
+ 94c:	01736533          	or	a0,t1,s7
+ 950:	001b76b3          	and	a3,s6,ra
+ 954:	00d565b3          	or	a1,a0,a3
+ 958:	800007b7          	lui	a5,0x80000
+ 95c:	00f5edb3          	or	s11,a1,a5
+ 960:	40081737          	lui	a4,0x40081
+ 964:	d1b72623          	sw	s11,-756(a4) # 40080d0c <_bsg_elf_dram_size+0x20080d0c>
+
+  //check local max
+  //short output_local[total_pixel_num]={0};
+  for(int y=0;y<y_tile_len;y++){
+ 968:	09012c83          	lw	s9,144(sp)
+ 96c:	01f00d13          	li	s10,31
+ 970:	119d5c63          	bge	s10,s9,a88 <_gp+0x278>
+ 974:	01412c03          	lw	s8,20(sp)
+ 978:	03412e03          	lw	t3,52(sp)
+ 97c:	001c0813          	addi	a6,s8,1
+ 980:	00149f93          	slli	t6,s1,0x1
+ 984:	03f803b3          	mul	t2,a6,t6
+    if(((y+init_index_y)<3) || ((y+init_index_y)>N_Y-4)) continue;
+ 988:	09012e83          	lw	t4,144(sp)
+ 98c:	fffc0293          	addi	t0,s8,-1
+ 990:	ff4e0f13          	addi	t5,t3,-12
+ 994:	01e385b3          	add	a1,t2,t5
+ 998:	02928333          	mul	t1,t0,s1
+ 99c:	ffde8393          	addi	t2,t4,-3 # 3efffffd <_bsg_elf_dram_size+0x1efffffd>
+ 9a0:	03812f03          	lw	t5,56(sp)
+  for(int y=0;y<y_tile_len;y++){
+ 9a4:	00000813          	li	a6,0
+    if(((y+init_index_y)<3) || ((y+init_index_y)>N_Y-4)) continue;
+ 9a8:	00200293          	li	t0,2
+    for(int x=3;x<x_tile_len-3;x++){
+ 9ac:	00600b13          	li	s6,6
+ 9b0:	004e0b93          	addi	s7,t3,4
+      int g_bot_index=x+(y+init_index_y+1)*N_X;
+      int g_bot_right_index=(x+1)+(y+init_index_y+1)*N_X;
+
+      int current_cim=cim[global_index];
+
+      if(current_cim>1){
+ 9b4:	00100e93          	li	t4,1
+ 9b8:	01c0006f          	j	9d4 <_gp+0x1c4>
+  for(int y=0;y<y_tile_len;y++){
+ 9bc:	01812083          	lw	ra,24(sp)
+ 9c0:	00180813          	addi	a6,a6,1
+ 9c4:	01f585b3          	add	a1,a1,t6
+ 9c8:	00930333          	add	t1,t1,s1
+ 9cc:	009f0f33          	add	t5,t5,s1
+ 9d0:	0a185c63          	bge	a6,ra,a88 <_gp+0x278>
+    if(((y+init_index_y)<3) || ((y+init_index_y)>N_Y-4)) continue;
+ 9d4:	01412883          	lw	a7,20(sp)
+ 9d8:	01180533          	add	a0,a6,a7
+ 9dc:	fea2d0e3          	bge	t0,a0,9bc <_gp+0x1ac>
+ 9e0:	fc755ee3          	bge	a0,t2,9bc <_gp+0x1ac>
+    for(int x=3;x<x_tile_len-3;x++){
+ 9e4:	fc9b5ce3          	bge	s6,s1,9bc <_gp+0x1ac>
+ 9e8:	03412603          	lw	a2,52(sp)
+ 9ec:	001f1093          	slli	ra,t5,0x1
+ 9f0:	001607b3          	add	a5,a2,ra
+ 9f4:	03c12d83          	lw	s11,60(sp)
+      int current_cim=cim[global_index];
+ 9f8:	00679d03          	lh	s10,6(a5) # 80000006 <_bsg_dram_end_addr+0xfeffff66>
+ 9fc:	00131693          	slli	a3,t1,0x1
+ a00:	001d8733          	add	a4,s11,ra
+ a04:	00db86b3          	add	a3,s7,a3
+ a08:	00c58513          	addi	a0,a1,12
+      if(current_cim>1){
+ a0c:	07aeda63          	bge	t4,s10,a80 <_gp+0x270>
+        is_max=current_cim >= cim[g_top_left_index] && current_cim >= cim[g_top_index] &&
+          current_cim >= cim[g_left_index] && current_cim >= cim[g_right_index] &&
+          current_cim >= cim[g_bot_left_index] && current_cim >= cim[g_bot_index] &&
+          current_cim >= cim[g_bot_right_index] && current_cim >= cim[g_top_right_index];
+ a10:	00069c83          	lh	s9,0(a3)
+        Output[global_index]=is_max ? 255:0;
+ a14:	00000893          	li	a7,0
+          current_cim >= cim[g_bot_right_index] && current_cim >= cim[g_top_right_index];
+ a18:	059d4463          	blt	s10,s9,a60 <_gp+0x250>
+        is_max=current_cim >= cim[g_top_left_index] && current_cim >= cim[g_top_index] &&
+ a1c:	00269c03          	lh	s8,2(a3)
+ a20:	058d4063          	blt	s10,s8,a60 <_gp+0x250>
+ a24:	00479e03          	lh	t3,4(a5)
+ a28:	03cd4c63          	blt	s10,t3,a60 <_gp+0x250>
+          current_cim >= cim[g_left_index] && current_cim >= cim[g_right_index] &&
+ a2c:	00879083          	lh	ra,8(a5)
+ a30:	021d4863          	blt	s10,ra,a60 <_gp+0x250>
+ a34:	00451603          	lh	a2,4(a0)
+ a38:	02cd4463          	blt	s10,a2,a60 <_gp+0x250>
+          current_cim >= cim[g_bot_left_index] && current_cim >= cim[g_bot_index] &&
+ a3c:	00651d83          	lh	s11,6(a0)
+ a40:	03bd4063          	blt	s10,s11,a60 <_gp+0x250>
+ a44:	00851c83          	lh	s9,8(a0)
+ a48:	019d4c63          	blt	s10,s9,a60 <_gp+0x250>
+          current_cim >= cim[g_bot_right_index] && current_cim >= cim[g_top_right_index];
+ a4c:	00469883          	lh	a7,4(a3)
+        Output[global_index]=is_max ? 255:0;
+ a50:	011d2d33          	slt	s10,s10,a7
+ a54:	41a00c33          	neg	s8,s10
+ a58:	f01c7e13          	andi	t3,s8,-255
+ a5c:	0ffe0893          	addi	a7,t3,255
+ a60:	01171323          	sh	a7,6(a4)
+    for(int x=3;x<x_tile_len-3;x++){
+ a64:	00278793          	addi	a5,a5,2
+ a68:	00270713          	addi	a4,a4,2
+ a6c:	00268693          	addi	a3,a3,2
+ a70:	00250513          	addi	a0,a0,2
+ a74:	f4b784e3          	beq	a5,a1,9bc <_gp+0x1ac>
+      int current_cim=cim[global_index];
+ a78:	00679d03          	lh	s10,6(a5)
+      if(current_cim>1){
+ a7c:	f9aecae3          	blt	t4,s10,a10 <_gp+0x200>
+      } else Output[global_index]=0;
+ a80:	00071323          	sh	zero,6(a4)
+ a84:	fe1ff06f          	j	a64 <_gp+0x254>
+ a88:	0ff0000f          	fence
+  //    Output[global_index]=output_local[local_inline_index];
+  //  }
+  //}
+
+  bsg_fence();
+  bsg_cuda_print_stat_kernel_end();
+ a8c:	02402d83          	lw	s11,36(zero) # 24 <__bsg_grp_org_y>
+ a90:	03002c83          	lw	s9,48(zero) # 30 <__bsg_y>
+ a94:	02802d03          	lw	s10,40(zero) # 28 <__bsg_grp_org_x>
+ a98:	03402603          	lw	a2,52(zero) # 34 <__bsg_x>
+ a9c:	01002c03          	lw	s8,16(zero) # 10 <__bsg_tile_group_id>
+ aa0:	019d8e33          	add	t3,s11,s9
+ aa4:	00cd08b3          	add	a7,s10,a2
+ aa8:	018e1293          	slli	t0,t3,0x18
+ aac:	01289393          	slli	t2,a7,0x12
+ ab0:	3f000437          	lui	s0,0x3f000
+ ab4:	00fc0937          	lui	s2,0xfc0
+ ab8:	00040b37          	lui	s6,0x40
+ abc:	0082f4b3          	and	s1,t0,s0
+ ac0:	0123f9b3          	and	s3,t2,s2
+ ac4:	004c1a13          	slli	s4,s8,0x4
+ ac8:	ff0b0b93          	addi	s7,s6,-16 # 3fff0 <_bsg_elf_stack_ptr+0x3eff4>
+ acc:	0134eab3          	or	s5,s1,s3
+ ad0:	017a7eb3          	and	t4,s4,s7
+ ad4:	01daefb3          	or	t6,s5,t4
+ ad8:	c00007b7          	lui	a5,0xc0000
+ adc:	00ffe6b3          	or	a3,t6,a5
+ ae0:	40081737          	lui	a4,0x40081
+ ae4:	d0d72623          	sw	a3,-756(a4) # 40080d0c <_bsg_elf_dram_size+0x20080d0c>
+ ae8:	0ff0000f          	fence
+  asm volatile (".word 0x1000000f");
+ aec:	1000000f          	0x1000000f
+  asm volatile (".word 0x2000000f");
+ af0:	2000000f          	0x2000000f
+  bsg_fence();
+  bsg_barrier_hw_tile_group_sync();
+
+  return 0;
+}
+ af4:	08c12083          	lw	ra,140(sp)
+ af8:	08812403          	lw	s0,136(sp)
+ afc:	08412483          	lw	s1,132(sp)
+ b00:	08012903          	lw	s2,128(sp)
+ b04:	07c12983          	lw	s3,124(sp)
+ b08:	07812a03          	lw	s4,120(sp)
+ b0c:	07412a83          	lw	s5,116(sp)
+ b10:	07012b03          	lw	s6,112(sp)
+ b14:	06c12b83          	lw	s7,108(sp)
+ b18:	06812c03          	lw	s8,104(sp)
+ b1c:	06412c83          	lw	s9,100(sp)
+ b20:	06012d03          	lw	s10,96(sp)
+ b24:	05c12d83          	lw	s11,92(sp)
+ b28:	00000513          	li	a0,0
+ b2c:	09010113          	addi	sp,sp,144
+ b30:	00008067          	ret
+
+00000b34 <bsg_barrier_amoadd>:
+  // t3 - wakeup val
+  // t4 - y index
+  // t5 - x index
+
+  // send amoadd
+  lw t0, 0(a1)
+ b34:	0005a283          	lw	t0,0(a1)
+  amoadd.w t1, t0, 0(a0)
+ b38:	0055232f          	amoadd.w	t1,t0,(a0)
+
+  
+  // is sense -1 or +1?
+  // set wakeup val
+  sub t3, x0, t0
+ b3c:	40500e33          	neg	t3,t0
+ 
+  // set check val 
+  blt x0, t0, bsg_barrier_amoadd_plus1
+ b40:	00504663          	bgtz	t0,b4c <bsg_barrier_amoadd_plus1>
+
+  // -1 case
+  li t2, 1
+ b44:	00100393          	li	t2,1
+  j bsg_barrier_amoadd_check
+ b48:	0080006f          	j	b50 <bsg_barrier_amoadd_check>
+
+00000b4c <bsg_barrier_amoadd_plus1>:
+
+bsg_barrier_amoadd_plus1:
+  // +1 case
+  li t2, (bsg_tiles_X*bsg_tiles_Y)-1
+ b4c:	01f00393          	li	t2,31
+
+00000b50 <bsg_barrier_amoadd_check>:
+
+bsg_barrier_amoadd_check:
+  bne t2, t1, bsg_barrier_amoadd_sleep
+ b50:	02639e63          	bne	t2,t1,b8c <bsg_barrier_amoadd_sleep>
+
+00000b54 <bsg_barrier_amoadd_wakeup>:
+
+bsg_barrier_amoadd_wakeup:
+  li t4, bsg_tiles_Y-1
+ b54:	00300e93          	li	t4,3
+
+00000b58 <bsg_barrier_amoadd_wakeup_loop_y>:
+
+bsg_barrier_amoadd_wakeup_loop_y:
+  li t5, bsg_tiles_X-1
+ b58:	00700f13          	li	t5,7
+
+00000b5c <bsg_barrier_amoadd_wakeup_loop_x>:
+
+bsg_barrier_amoadd_wakeup_loop_x:
+  // calculate the tile-group addr for the sense val
+  li t6, 0x20000000
+ b5c:	20000fb7          	lui	t6,0x20000
+  slli a2, t4, 24
+ b60:	018e9613          	slli	a2,t4,0x18
+  add t6, t6, a2
+ b64:	00cf8fb3          	add	t6,t6,a2
+  slli a2, t5, 18
+ b68:	012f1613          	slli	a2,t5,0x12
+  add t6, t6, a2
+ b6c:	00cf8fb3          	add	t6,t6,a2
+  add t6, t6, a1
+ b70:	00bf8fb3          	add	t6,t6,a1
+  sw t3, 0(t6)
+ b74:	01cfa023          	sw	t3,0(t6) # 20000000 <_bsg_elf_dram_size>
+  addi t5, t5, -1
+ b78:	ffff0f13          	addi	t5,t5,-1
+  bge t5, x0, bsg_barrier_amoadd_wakeup_loop_x
+ b7c:	fe0f50e3          	bgez	t5,b5c <bsg_barrier_amoadd_wakeup_loop_x>
+  addi t4, t4, -1
+ b80:	fffe8e93          	addi	t4,t4,-1
+  bge t4, x0, bsg_barrier_amoadd_wakeup_loop_y
+ b84:	fc0edae3          	bgez	t4,b58 <bsg_barrier_amoadd_wakeup_loop_y>
+  j bsg_barrier_amoadd_end
+ b88:	0140006f          	j	b9c <bsg_barrier_amoadd_end>
+
+00000b8c <bsg_barrier_amoadd_sleep>:
+
+
+bsg_barrier_amoadd_sleep:
+  lr.w t0, 0(a1)
+ b8c:	1005a2af          	lr.w	t0,(a1)
+  beq t3, t0, bsg_barrier_amoadd_end
+ b90:	005e0663          	beq	t3,t0,b9c <bsg_barrier_amoadd_end>
+  // we need to check this, in order to support the reservation
+  // being cleared by a context switch
+  lr.w.aq t0, 0(a1)
+ b94:	1405a2af          	lr.w.aq	t0,(a1)
+  beq t3, t0, bsg_barrier_amoadd_sleep
+ b98:	fe5e0ae3          	beq	t3,t0,b8c <bsg_barrier_amoadd_sleep>
+
+00000b9c <bsg_barrier_amoadd_end>:
+
+
+bsg_barrier_amoadd_end:
+  ret
+ b9c:	00008067          	ret
+
+00000ba0 <main>:
+#include "bsg_cuda_lite_runtime.h"
+
+
+int main()
+{
+        __wait_until_valid_func();
+ ba0:	04002283          	lw	t0,64(zero) # 40 <cuda_kernel_not_loaded_val>
+ ba4:	05400413          	li	s0,84
+ ba8:	1004232f          	lr.w	t1,(s0)
+ bac:	00629463          	bne	t0,t1,bb4 <__init_param>
+ bb0:	140422af          	lr.w.aq	t0,(s0)
+
+00000bb4 <__init_param>:
+ bb4:	05400293          	li	t0,84
+ bb8:	0002a483          	lw	s1,0(t0)
+ bbc:	05000293          	li	t0,80
+ bc0:	0002a903          	lw	s2,0(t0)
+ bc4:	04c00293          	li	t0,76
+ bc8:	0002a983          	lw	s3,0(t0)
+ bcc:	04800293          	li	t0,72
+ bd0:	0002aa03          	lw	s4,0(t0)
+
+00000bd4 <__load_argument>:
+ bd4:	0009a503          	lw	a0,0(s3)
+ bd8:	0049a583          	lw	a1,4(s3)
+ bdc:	0089a603          	lw	a2,8(s3)
+ be0:	00c9a683          	lw	a3,12(s3)
+ be4:	0109a703          	lw	a4,16(s3)
+ be8:	0149a783          	lw	a5,20(s3)
+ bec:	0189a803          	lw	a6,24(s3)
+ bf0:	01c9a883          	lw	a7,28(s3)
+ bf4:	00800293          	li	t0,8
+ bf8:	0322de63          	bge	t0,s2,c34 <__invoke_kernel>
+ bfc:	ff890293          	addi	t0,s2,-8 # fbfff8 <_bsg_elf_vcache_size+0xf7fff8>
+ c00:	00229293          	slli	t0,t0,0x2
+ c04:	40510133          	sub	sp,sp,t0
+ c08:	00800293          	li	t0,8
+ c0c:	02000313          	li	t1,32
+ c10:	00000e13          	li	t3,0
+
+00000c14 <__load_stack>:
+ c14:	013303b3          	add	t2,t1,s3
+ c18:	0003ae83          	lw	t4,0(t2)
+ c1c:	002e0f33          	add	t5,t3,sp
+ c20:	01df2023          	sw	t4,0(t5)
+ c24:	00128293          	addi	t0,t0,1
+ c28:	00430313          	addi	t1,t1,4
+ c2c:	004e0e13          	addi	t3,t3,4
+ c30:	ff22c2e3          	blt	t0,s2,c14 <__load_stack>
+
+00000c34 <__invoke_kernel>:
+ c34:	000480e7          	jalr	s1
+ c38:	00800293          	li	t0,8
+ c3c:	0122d863          	bge	t0,s2,c4c <__kernel_return>
+ c40:	ff890293          	addi	t0,s2,-8
+ c44:	00229293          	slli	t0,t0,0x2
+ c48:	00510133          	add	sp,sp,t0
+
+00000c4c <__kernel_return>:
+ c4c:	04002283          	lw	t0,64(zero) # 40 <cuda_kernel_not_loaded_val>
+ c50:	00542023          	sw	t0,0(s0) # 3f000000 <_bsg_elf_dram_size+0x1f000000>
+  if (__bsg_id == 0) 
+ c54:	02c02283          	lw	t0,44(zero) # 2c <__bsg_id>
+ c58:	00029863          	bnez	t0,c68 <__kernel_return+0x1c>
+     *signal_ptr = cuda_finish_signal_val;     
+ c5c:	04802383          	lw	t2,72(zero) # 48 <cuda_finish_signal_addr>
+ c60:	04402503          	lw	a0,68(zero) # 44 <cuda_finish_signal_val>
+ c64:	00a3a023          	sw	a0,0(t2)
+ c68:	f39ff06f          	j	ba0 <main>
+}
+ c6c:	00000513          	li	a0,0
+ c70:	00008067          	ret
+
+00000c74 <__.text.dram_end>:
+	...

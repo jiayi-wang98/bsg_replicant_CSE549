@@ -1,0 +1,84 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP2-2
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1755 562 288 222
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/tile-x_8__tile-y_4__image-size-x_64__image-size-y_64__warm-cache_yes/debug.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 100196378.032189 100226888.764358
+cursor 100207359.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 10
+; marker line index
+markerPos 30
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/local1/jwang710/bsg_bladerunner/bsg_replicant/examples/hb_hammerbench/apps/harris_color/tile-x_8__tile-y_4__image-size-x_64__image-size-y_64__warm-cache_yes/debug.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[0]/x[0]/tile/proc/h/z/vcore/icache0/w_pc_i[21:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_instr_i[31:0]
+addGroup "G2"
+addSignal -h 15 /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[0]/x[0]/tile/proc/h/z/vcore/icache0/clk_i
+addSignal -h 15 -holdScope flush_i
+addSignal -h 15 -holdScope read_pc_plus4_i
+addSignal -h 15 -holdScope v_i
+addSignal -h 15 -holdScope w_i
+addGroup "G3"
+addSignal -h 15 -UNSIGNED -HEX /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[0]/x[0]/tile/proc/h/z/vcore/icache0/pc_i[21:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope instr_o[31:0]
+addGroup "G4"
+addSignal -h 15 /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[0]/x[0]/tile/proc/h/z/vcore/icache0/icache_miss_o
+addGroup "G5"
+addSignal -h 15 -UNSIGNED -HEX /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[2]/x[3]/tile/proc/h/z/vcore/icache0/pc_i[21:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope instr_o[31:0]
+addSignal -h 15 -holdScope icache_miss_o
+addGroup "G6"
+addSignal -h 15 -UNSIGNED -HEX /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[2]/x[6]/tile/proc/h/z/vcore/icache0/pc_i[21:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope instr_o[31:0]
+addGroup "G7"
+addSignal -h 15 /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[2]/x[6]/tile/proc/h/z/vcore/stall_id
+addGroup "G8"
+addSignal -h 15 /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[2]/x[6]/tile/proc/h/z/vcore/stall_fence
+addSignal -h 15 -holdScope stall_depend_long_op
+addGroup "G9"
+addSignal -h 15 /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[2]/x[6]/tile/proc/h/z/vcore/int_dependency
+addSignal -h 15 /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[2]/x[6]/tile/proc/h/z/vcore/lsu0/remote_req_o
+addGroup "G10"
+addSignal -h 15 -UNSIGNED -HEX /replicant_tb_top/testbench/fi1/DUT/py[0]/podrow/px[0]/pod/mc_y[0]/mc_x[0]/mc/y[2]/x[6]/tile/proc/h/z/vcore/int_sb/scoreboard_r[31:0]
+addGroup "G11"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+
